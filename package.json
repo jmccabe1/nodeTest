@@ -1,0 +1,32 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Node.js testing",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmccabe1/nodeTest.git"
+  },
+  "author": "John McCabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmccabe1/nodeTest/issues"
+  },
+  "homepage": "https://github.com/jmccabe1/nodeTest#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "geckodriver": "^2.0.0",
+    "mocha": "^9.0.1",
+    "puppeteer": "^10.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "selenium-webdriver": "^4.0.0-beta.4",
+    "sync-promise": "^1.1.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^91.0.1"
+  }
+}
